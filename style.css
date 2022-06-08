@@ -1,0 +1,120 @@
+/*Reseteo CSS*/
+*{
+    margin: 0;
+	padding: 0;
+}
+
+/*Estilo header*/
+header{
+    margin-bottom: 0px;
+}
+
+.colorNav{
+    background-color: rgb(241, 184, 77);
+}
+
+.navbar a{
+    color: green;
+    font-size: 1rem;
+}
+
+.navbar a:hover{
+    color: rgb(10, 190, 181);
+    font-size: 1,2rem;
+}
+
+ul li {
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.titulo2{
+    display: flex;
+    padding-bottom:  1rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+h3{
+    color: green;
+}
+
+
+/*Estilo otras_secciones, menos contactos */
+
+.container{
+    margin-top: -0,5rem;
+    padding-top: 1rem;
+    padding-bottom:  1rem;
+}
+.celda1{
+    display: flex;
+    flex-direction: column;
+}
+
+.celda1 img{
+    width: auto;
+    height: auto;
+}
+
+.celda1 .imgFlora1{
+    width: 75%; height: 75%;   
+
+}
+.celda1 .imgFlora2{
+    width: 75%; height: 75%; 
+    
+}
+.celda1 .imgFlora1:hover{
+    width: 90%; height: 90%;
+    transition: height 2s;
+    transition: width 2s;
+
+}
+.celda1 .imgFlora2:hover{
+    width: 90%; height: 90%;  
+    transition: height 2s;
+    transition: width 2s;
+      
+
+}
+
+/*Estilo CONTACTO*/
+
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Estilo footer*/
+
+.containerFooter{
+    background-color: green;
+    
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.containerFooter p{
+    font-size: 1.2em;
+    color: rgb(241, 184, 77);
+   
+}
+
+.imgLogoBiolagos{
+    height: 100px;
+    width: 150px;
+}
+
+
